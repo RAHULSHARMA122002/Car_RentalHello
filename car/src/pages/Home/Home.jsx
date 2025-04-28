@@ -37,7 +37,7 @@ function Home(props) {
   useEffect(() => {
     async function fetchCars() {
       try {
-        const response = await axios.get('https://carrental-738agi02.b4a.run/api/auth/login');
+        const response = await axios.get('https://carrental-738agi02.b4a.run/api/cars');
         setCars(response.data);
         console.log(response.data);
         console.log(props);
