@@ -39,7 +39,7 @@ function Navbar() {
           <span>EN</span>
         </div>
         <div className="personn">
-          <PersonIcon />
+          <PersonIcon onClick={() => navigate('/Account')} />
         </div>
          
         <span className="login" onClick={() => navigate('/login')}>Log In</span>
