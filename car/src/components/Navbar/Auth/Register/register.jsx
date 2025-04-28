@@ -15,11 +15,11 @@ const Register = () => {
     e.preventDefault();
     try {
       const { name, email, password } = form; // ✅ Extract from form state
-      const res = await axios.post('http://car-rental-hello.vercel.app/api/auth/register',{
-        name,
-        email,
-        password
-      });
+      const res = await axios.post('https://carrental-738agi02.b4a.run/api/auth/register', {
+  name,
+  email,
+  password
+});
       alert('Registration successful! Please login.');
       navigate('/login');
     } catch (err) {
