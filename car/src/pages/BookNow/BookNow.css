@@ -1,0 +1,54 @@
+.booking{
+    display: flex;
+    height: 700px;;
+    align-items: center;
+    justify-content: center;
+    border:2px solid red;
+    background-image: url("./Assesst/back3.jpg");
+    background-position: center;
+
+}
+.card12{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.imggg{
+    width: 700px;
+    height: auto;
+    
+
+}
+
+@media screen and (max-width: 1024px) {
+    .booking {
+      flex-direction: column;
+      height: auto;
+      padding: 10px;
+      background-size: cover;
+      align-items: center; /* optional: centers content */
+    }
+  
+    .card12 {
+      margin-top: 100px;  /* Changed from 80px to 20px for better spacing */
+      width: 95%;
+      padding: 15px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+  
+    .register-container input {
+      width: 100%;
+      box-sizing: border-box; /* ensures padding doesn't overflow */
+    }
+  
+    .imggg {
+      width: 95%;
+      height: auto;
+      margin-top: 20px;
+    }
+  }
+  

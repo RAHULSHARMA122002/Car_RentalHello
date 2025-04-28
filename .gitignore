@@ -1,0 +1,39 @@
+
+
+# Node.js specific
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+npm-shrinkwrap.json
+
+# Build output
+build/
+dist/
+coverage/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# React specific
+/build/
+
+# Testing
+/coverage/

@@ -1,0 +1,180 @@
+/* Account.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  
+ .ProfileContainer {
+  
+  width: 100%;
+  max-width: 900px;
+
+  height: 700vh;
+  
+  margin: 50px auto;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 20px;
+ 
+  overflow: hidden;
+  margin-top: 70px;
+  border: 2px red;
+
+}
+
+.profieBackphoto {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 12px;
+  
+  overflow: hidden;
+
+}
+
+.profieBackphoto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.profilePhoto {
+  position: absolute;
+  bottom: -30px;
+  left: 30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: white;
+  padding: 10px 20px;
+ 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+
+}
+.profilePhoto span{
+  color: white;
+}
+
+.profilePhoto img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #007acc;
+  
+}
+
+.name .user {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fefbfb;
+}
+
+.btn {
+  margin-left: auto;
+  background-color: #030507;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #005f99;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  
+  
+  .profilePhoto {
+    flex-direction: column;
+    align-items: flex-start;
+    bottom: -10px;
+    left: 10px;
+    padding: 10px;
+    
+  }
+
+  .btn {
+    margin-top: 20px;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .profilePhoto img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+  .mainprofilecontainer {
+    padding: 30px 20px;
+  }
+  
+  .wrapperprofile {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .wrapperprofile h1{
+   color: white;
+  }
+  .card1 {
+    background-color: rgb(2, 2, 2);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .card > div {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fafafa;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .card > div:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ProfileCar {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .card h3 {
+    margin-top: 0;
+    color: #1e69de;
+  }
+  
+  .card p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .card p strong {
+    color: #222;
+  }
+  

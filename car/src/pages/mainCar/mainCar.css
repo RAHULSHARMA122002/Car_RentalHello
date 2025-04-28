@@ -1,0 +1,81 @@
+
+.Container{
+    height: 100vh;
+    width:100%;
+    
+    
+
+}
+
+.Wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.card3{
+    background-image: url("../../../public//Assests//Background.png");
+    width: 50%;
+    height: 80vh;
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+    background-position: center center; /* Center the image */
+  background-size: cover;             /* Cover entire div */
+  background-repeat: no-repeat;       /* Prevent repetition */
+  margin-left: 100px;
+  margin-top: 50px;
+  z-index: 0;
+    
+}
+   
+.mainimg{
+    margin-top: 100px;
+    opacity: 100%; /* Ensures the car image is fully visible */
+   width: 600px;
+   height: auto;
+
+}
+
+
+.card2{
+    background: rgba(5, 14, 95, 0.1); /* Glassmorphism effect */
+    width: 20%;
+    height: 80vh;
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out; /* Smooth transition *
+  background-repeat: no-repeat;       /* Prevent repetition */
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+
+
+}
+.m3{
+  height: auto;
+  width:80px ;
+  background-color: black;
+  border-radius: 50%;
+  margin: 10px;
+}
+.containe1{
+  margin-top: 20px;
+}
+
+.m4{
+  height: auto;
+  width:200px;
+  border-radius: 50%;
+  margin: 10px;
+
+}
+
+.carComp{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

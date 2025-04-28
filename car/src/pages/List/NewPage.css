@@ -1,0 +1,101 @@
+.new-page{
+    height: 100vh;
+    width:100%;
+    overflow: hidden;
+
+}
+
+.card1{
+    
+    background: rgba(255, 255, 255, 0.1); /* Glassmorphism effect */
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+    margin-right: 20px;
+    margin-top: 20px;
+    height: 50vh;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    gap: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-weight: bold;
+
+
+
+}
+span{
+    font-size: large;
+}
+.top{
+    font-size: x-large;
+}
+
+.firr{
+    background-color: antiquewhite;
+    width: 200px;
+    border-radius: 30px;
+    height: 40px;
+}
+.firr:hover{
+    background-color: #78c61e;
+    transform: scale(1.1); /* Slightly enlarge button */
+}
+
+.card1:hover {
+    transform: translateY(-10px); /* Lift effect */
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.4); /* Glowing effect */
+    
+}
+
+
+
+.card {
+   
+    background: rgba(255, 255, 255, 0.1); /* Glassmorphism effect */
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+    margin-right: 20px;
+    margin-top: 20px;
+    height: 100px;
+    
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Lift effect */
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.4); /* Glowing effect */
+    
+}
+
+.Star{
+    height: 20px;
+    width: 20px;
+    
+}
+.starContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.disMain{
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+}
+.nam{
+    font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow:
+    0 0 5px #ffffff,
+    0 0 10px #ffffff,
+    0 0 20px #00c3ff,
+    0 0 30px #00c3ff,
+    0 0 40px #00c3ff;
+}
