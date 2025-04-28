@@ -37,7 +37,7 @@ function Home(props) {
   useEffect(() => {
     async function fetchCars() {
       try {
-        const response = await axios.get('http://localhost:5000/api/cars');
+        const response = await axios.get('https://car-rental-hello.vercel.app/api/cars');
         setCars(response.data);
         console.log(response.data);
         console.log(props);
@@ -71,20 +71,22 @@ function Home(props) {
 
     try {
       const res = await axios.post(
-        'http://localhost:5000/api/bookings/',
-        { userId:userid,
-          carId:carrId,
-          startDate,
-          endDate,
-          totalPrice: result,
-        },
-        {
-          headers: {
-            Authorization: `Bearer ${token}`, // ✅ attach JWT here
-            'Content-Type': 'application/json',
-          },
-        }
-      );
+  'https://car-rental-hello.vercel.app/api/bookings/', // Updated URL
+  {
+    userId: userid,
+    carId: carrId,
+    startDate,
+    endDate,
+    totalPrice: result,
+  },
+  {
+    headers: {
+      Authorization: `Bearer ${token}`, // ✅ attach JWT here
+      'Content-Type': 'application/json',
+    },
+  }
+);
+
       alert('Booking successful!');
       console.log(res.data);
     } catch (err) {
