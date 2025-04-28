@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import LanguageIcon from '@mui/icons-material/Language';
 import SearchIcon from '@mui/icons-material/Search';
 import logo from './cardekho2.png'; // Your logo
+import PersonIcon from '@mui/icons-material/Person';
 
 function Navbar() {
   const navigate = useNavigate();
@@ -37,6 +38,10 @@ function Navbar() {
           <LanguageIcon />
           <span>EN</span>
         </div>
+        <div className="personn">
+          <PersonIcon />
+        </div>
+         
         <span className="login" onClick={() => navigate('/login')}>Log In</span>
         
       </div>

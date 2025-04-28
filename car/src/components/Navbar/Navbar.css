@@ -119,6 +119,12 @@
   gap: 5px;
   cursor: pointer;
 }
+.personn{
+  padding: 10px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+}
 
 .burger .line {
   width: 30px;
