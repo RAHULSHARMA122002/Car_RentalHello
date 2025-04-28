@@ -37,7 +37,7 @@ function Home(props) {
   useEffect(() => {
     async function fetchCars() {
       try {
-        const response = await axios.get('https://car-rental-hello.vercel.app/api/cars');
+        const response = await axios.get('https://carrental-738agi02.b4a.run/api/auth/login');
         setCars(response.data);
         console.log(response.data);
         console.log(props);
@@ -70,8 +70,7 @@ function Home(props) {
     const token = localStorage.getItem('token');
 
     try {
-      const res = await axios.post(
-  'https://car-rental-hello.vercel.app/api/bookings/', // Updated URL
+      const res = await axios.post('https://carrental-738agi02.b4a.run/api/bookings/', 
   {
     userId: userid,
     carId: carrId,
