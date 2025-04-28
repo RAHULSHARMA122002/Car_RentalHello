@@ -15,7 +15,7 @@ const Register = () => {
     e.preventDefault();
     try {
       const { name, email, password } = form; // ✅ Extract from form state
-      const res = await axios.post('https://car-rental-hello.vercel.app/api/auth/register',{
+      const res = await axios.post('http://car-rental-hello.vercel.app/api/auth/register',{
         name,
         email,
         password
