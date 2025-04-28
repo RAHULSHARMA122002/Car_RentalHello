@@ -13,7 +13,7 @@ const Login = ({ onLoginSuccess }) => {
     console.log("Login button clicked");
 
     try {
-      const res = await axios.post('http://car-rental-hello.vercel.app/api/auth/login', { email, password });
+      const res = await axios.post('https://carrental-738agi02.b4a.run/api/auth/login', { email, password });
 
 
       // ✅ Save JWT token
